@@ -1,0 +1,106 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #c0e741, #0000ff);
+}
+
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(95, 1, 15, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h2 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+#gradient {
+    font: 'Raleway', sans-serif;
+    color: rgba(2, 39, 38, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, red, yellow);
+}
+
+#gradient2 {
+    font: 'Raleway', sans-serif;
+    color: rgba(157, 3, 3, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, rgba(141, 5, 118, 0.371), yellow);
+}
+
+#gradient3 {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, rgb(62, 162, 12), rgb(54, 26, 211));
+}
+
+#gradient4 {
+    font: 'Raleway', sans-serif;
+    color: rgba(27, 8, 201, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, rgb(21, 151, 171), rgb(157, 211, 65));
+}
+
+
+button {
+    background-color: #f52c79;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: #F082AC;
+}
+
+
+#background {
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+}
